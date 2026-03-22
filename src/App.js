@@ -181,7 +181,7 @@ export default function App() {
   const [selectedHotspot, setSelectedHotspot] = useState(null);
   const [noteOpen, setNoteOpen] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
-  const speakRef = useRef(null);
+  //const speakRef = useRef(null);
 
   const scenes = ALL_SCENES[activeCatId] || [];
   // activeScene is set explicitly on thumb click — does NOT change on tab switch
